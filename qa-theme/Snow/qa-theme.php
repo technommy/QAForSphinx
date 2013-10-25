@@ -155,7 +155,7 @@
 		{
 			$this->output(
 				'<div class="qa-attribution">',
-				'Copyright © 2013 欧朋保留所有权利.',
+				'Copyright © 2013 欧朋浏览器. All right reserved.',
 				'</div>'
 			);
 		}

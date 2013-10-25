@@ -1021,6 +1021,9 @@
 	//	Second look for a localized file
 	
 		$languagecode=qa_opt('site_language');
+		$qa_lang=qa_get('qa_lang'); // get from URL parameter if possible
+		if (isset($qa_lang)) // otherwise get option
+  			$languagecode=$qa_lang;
 		
 		if (strlen($languagecode)) {
 			if (!isset($qa_phrases_lang[$group])) {
