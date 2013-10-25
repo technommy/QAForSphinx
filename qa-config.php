@@ -31,9 +31,9 @@
 */
 
 	define('QA_MYSQL_HOSTNAME', 'localhost'); // try '127.0.0.1' or 'localhost' if MySQL on same server
-	define('QA_MYSQL_USERNAME', 'root');
-	define('QA_MYSQL_PASSWORD', '19950801');
-	define('QA_MYSQL_DATABASE', 'faq');
+	define('QA_MYSQL_USERNAME', '*username');
+	define('QA_MYSQL_PASSWORD', '*password');
+	define('QA_MYSQL_DATABASE', '*database');
 	
 /*
 	Ultra-concise installation instructions:
